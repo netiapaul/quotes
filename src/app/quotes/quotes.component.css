@@ -1,0 +1,13 @@
+[quote]{
+    transform: rotate(180deg)
+}
+[new]{
+    background-color: #096209;
+    color: white;
+}
+[profile]:hover{
+    transform: scale(1.5)
+}
+[jumbo]{
+    margin-top:50px;
+}

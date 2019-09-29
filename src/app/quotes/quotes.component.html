@@ -1,0 +1,34 @@
+
+<br>
+<h2 class="text-center">Random quotes from the TV series Breaking Bad</h2>
+<div class="jumbotron text-center" jumbo *ngFor='let quote of quotes'>
+
+    <p class="lead"> <i class="material-icons" quote>format_quote </i> {{quote.quote}}</p>
+    <hr class="my-4">
+
+    <div class="d-flex flex-row-reverse bd-highlight">
+
+        <div class="p-2 bd-highlight"><p>-&nbsp;{{quote.author}}</p></div>
+            
+    </div>
+    
+
+    <div class="d-flex bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+            <a href="https://linkedin.com/in/paulnetia/" target="_blank" >
+                    <button type="submit" class="btn btn-sm" profile><img src="assets/images/linkedin.svg" alt="github"></button>
+            </a>  
+        </div>
+
+        <div class="p-2 bd-highlight">
+            <a href="">
+                <button type="submit" class="btn btn-sm" profile><img src="assets/images/github.svg" alt="github"></button>
+            </a> 
+        </div>
+        
+        <div class="ml-auto p-2 bd-highlight"><button type="submit" class="btn" new (click)="getAnotherQuote()">New Quote</button></div>
+    </div>
+
+    
+  </div>
+  <p class="text-center text-success">created by paul Netia : <a href="mailto:netiapaul23@gmail.com" target="_blank">netiapaul23@gmail.com</a> </p>
