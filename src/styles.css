@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 /* You can add global styles to this file, and also import other style files */
 /* body{
     background-image: url('assets/images/back2.jpeg');
@@ -6,3 +8,10 @@
     background-size: cover;
     background-position: center;
 } */
+
+[saying]{
+    font-family: 'Righteous', cursive;
+}
+u{
+    font-family: 'Permanent Marker', cursive;
+}
